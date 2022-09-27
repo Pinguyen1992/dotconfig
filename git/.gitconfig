@@ -8,3 +8,6 @@
 	email = nguyen_johan@hotmail.com
 [alias]
 	co = checkout
+	ci = commit -m 
+	gs = status
+	gl = log --all --decorate --oneline --graph

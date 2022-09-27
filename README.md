@@ -15,4 +15,10 @@ brew install fzf
 ```
 # clone the repo and run the script
 
+# copy the default reposettings to a repo
+1) Navigate to the git folder of interest
+2) source the script in git/gitinit.sh for example
+```
+source ~/Documents/Git/dotconfig/git/gitinit.sh
+```
 

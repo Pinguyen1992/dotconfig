@@ -50,3 +50,5 @@ augroup END
 if has('syntax') && has('eval')
   packadd! matchit
 endif
+
+set number
