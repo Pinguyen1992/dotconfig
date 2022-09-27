@@ -1,13 +1,13 @@
 PATHDOT=$(pwd)
 
-rm ~/.zprofile 
+mv ~/.zprofile ~/.zprofile_bckdotconfig
 ln -s $PATHDOT/mac/.zprofile ~/.zprofile
 echo "zprofile copied"
 
-rm ~/.vimrc
+mv ~/.vimrc ~/.vimrc_bckdotconfig
 ln -s $PATHDOT/vim/.vimrc ~/.vimrc
 echo "vimrc copied"
 
-rm ~/.gitconfig
+mv ~/.gitconfig ~/.gitconfig_bckdotconfig
 ln -s $PATHDOT/git/.gitconfig ~/.gitconfig
 echo "gitconfig copied"

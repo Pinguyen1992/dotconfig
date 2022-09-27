@@ -11,3 +11,5 @@
 	ci = commit -m 
 	gs = status
 	gl = log --all --decorate --oneline --graph
+[advice]
+	addIgnoredFile = false	
